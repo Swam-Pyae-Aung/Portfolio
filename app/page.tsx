@@ -37,7 +37,7 @@ import Hero from "@/components/Hero";
 // DO NOT import Grid here anymore
 // import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
-import Clients from "@/components/Clients";
+// import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
@@ -58,9 +58,9 @@ const Home = () => {
         <Hero />
         <Grid /> {/* 4. Use it just like a normal component */}
         <RecentProjects />
-        {/* <Clients />
+        {/* <Clients /> */}
         <Experience />
-        <Approach />
+        {/* <Approach />
         <Footer /> */}
       </div>
     </main>
