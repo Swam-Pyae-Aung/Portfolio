@@ -1,8 +1,10 @@
+// In app/layout.tsx
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
 import "./globals.css";
-import { ThemeProvider } from "./provider";
+// Import your custom ThemeProvider from the new file
+import { ThemeProvider } from "./ThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +24,10 @@ export default function RootLayout({
         <link rel="icon" href="/jsm-logo.png" sizes="any" />
       </head>
       <body className={inter.className}>
+        {/*
+          Now, we wrap the children with our custom ThemeProvider component,
+          which is correctly marked as a "use client" component.
+        */}
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
