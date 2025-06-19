@@ -57,8 +57,8 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid /> {/* 4. Use it just like a normal component */}
-        {/* <RecentProjects />
-        <Clients />
+        <RecentProjects />
+        {/* <Clients />
         <Experience />
         <Approach />
         <Footer /> */}
