@@ -73,8 +73,8 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Modern Movie UI/UX App", // New title to match the project
-    des: "A sleek and modern user interface for a movie browsing application, showcasing dynamic content and interactions.", // New description
+    title: "React Movie Discovery App", // New title to match the project
+    des: "A sleek web application built with React for searching and browsing movies. Features an intuitive interface to manage a personal favorites list with a double-tap interaction.", // New description
     img: "/MovieApp.png", // This image is now correct for this project
     iconLists: [
       "/re.svg",
@@ -88,8 +88,8 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Real-Time Vue.js Chat Application",
+    des: "A minimalist live group chat application built with Vue.js. This project enables users to log in and communicate in real-time, demonstrating core concepts of a modern, reactive web application.",
     img: "/livechat.png", // This was already correct
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://vue-block-system-879ad.web.app", // <-- CHANGED THIS: Replace with your actual live URL

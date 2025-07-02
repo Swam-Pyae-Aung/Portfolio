@@ -18,10 +18,7 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title="/ui.aceternity.com"
-              href="movie-six-drab.vercel.app"
-            >
+            <PinContainer title="/ui.com" href="movie-six-drab.vercel.app">
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -64,25 +61,25 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
-                  <a
-  href={item.link}
-  target="_blank"
-  rel="noopener noreferrer"
-  // Add the "group" class to the link itself
-  className="group" 
->
-  <div className="flex justify-center items-center">
-    <p className="flex lg:text-xl md:text-xs text-sm text-purple group-hover:underline">
-      {/* The "group-hover:underline" will add an underline on hover */}
-      Check Live Site
-    </p>
-    <FaLocationArrow
-      className="ms-3 group-hover:translate-x-2 transition-transform duration-300"
-      //   ↑ Add these classes to the arrow icon
-      color="#CBACF9"
-    />
-  </div>
-</a>
+                <a
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  // Add the "group" class to the link itself
+                  className="group"
+                >
+                  <div className="flex justify-center items-center">
+                    <p className="flex lg:text-xl md:text-xs text-sm text-purple group-hover:underline">
+                      {/* The "group-hover:underline" will add an underline on hover */}
+                      Check Live Site
+                    </p>
+                    <FaLocationArrow
+                      className="ms-3 group-hover:translate-x-2 transition-transform duration-300"
+                      //   ↑ Add these classes to the arrow icon
+                      color="#CBACF9"
+                    />
+                  </div>
+                </a>
               </div>
             </PinContainer>
           </div>
