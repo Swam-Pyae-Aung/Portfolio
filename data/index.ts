@@ -96,20 +96,20 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "3D iPhone Website",
+    des: "Build and deploy a fully responsive 3D iPhone website featuring GSAP animations, interactive 3D models with different colors and sizes, and a custom video carousel.",
+    img: "/iPh.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://your-ai-saas-live-url.com", // <-- CHANGED THIS: Replace with your actual live URL
+    link: "https://iphone-topaz.vercel.app/", // <-- CHANGED THIS: Replace with your actual live URL
   },
   {
     id: 4,
     // If this is your Movie App project, you can update it here. For example:
-    title: "Modern Movie UI/UX App",
-    des: "Recreated a modern movie application website, combining GSAP animations and dynamic data.",
-    img: "/MovieApp.png", // <-- The image you wanted to use!
+    title: "Brainwave: Modern AI UI/UX Website",
+    des: "Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
+    img: "/brainwave.png", // <-- The image you wanted to use!
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://movie-six-drab.vercel.app", // <-- THE REAL URL YOU WANTED!
+    link: "https://brainwave-five-theta.vercel.app/#features", // <-- THE REAL URL YOU WANTED!
   },
 ];
 
@@ -214,13 +214,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Swam-Pyae-Aung",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  //   link: "https://twitter.com/your-username",
+  // },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/swampyaeaung/",
   },
 ];
