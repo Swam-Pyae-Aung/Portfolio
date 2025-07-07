@@ -59,7 +59,7 @@ const Home = () => {
         <Grid /> {/* 4. Use it just like a normal component */}
         <RecentProjects />
         {/* <Clients /> */}
-        <Experience />
+        {/* <Experience /> */}
         <Approach />
         <Footer />
       </div>
